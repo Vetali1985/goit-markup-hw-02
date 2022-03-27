@@ -1,1 +1,73 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --primary-bg-color: #e5e5e5;
+  --header-bg-color: #ffffff;
+  --logo-text-studio: #000000;
+  --footer-bg-color: #2f303a;
+}
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
+.header {
+  background-color: var(--header-bg-color);
+}
+.web-logo {
+  color: var(--accent-text-color);
+}
+.studio-logo {
+  color: var(--primary-text-color);
+}
+.logo .studio-logo:hover,
+.logo .studio-logo:focus {
+  color: var(--accent-text-color);
+}
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-text-color);
+}
 
+.site-nav .link.current {
+  color: var(--accent-text-color);
+}
+.section .section-title {
+  color: var(--title-text-color);
+}
+.auth-nav .link {
+  color: var(--primary-text-color);
+}
+.auth-nav .link:focus,
+.auth-nav .link:hover {
+  color: var(--accent-text-color);
+}
+/*Buton*/
+.button {
+  color: var(--accent-text-color);
+  background-color: var(--header-bg-color);
+}
+.button:hover,
+.button:focus {
+  background-color: var(--accent-text-color);
+  color: var(--header-bg-color);
+}
+.button-primary {
+  background-color: var(--accent-text-color);
+  color: var(--header-bg-color);
+  border-color: #2196f3;
+}
+.button-primary:focus,
+.button-primary:hover {
+  background-color: var(--header-bg-color);
+  color: var(--accent-text-color);
+}
+.footer-bg {
+  background-color: var(--footer-bg-color);
+}
