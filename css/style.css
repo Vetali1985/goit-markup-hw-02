@@ -1,3 +1,5 @@
+
+      /*Переменные*/
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -7,6 +9,7 @@
   --logo-text-studio: #000000;
   --footer-bg-color: #2f303a;
 }
+          /*Основные*/
 body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
@@ -16,6 +19,7 @@ body {
 .list {
   list-style: none;
 }
+           /*Шапка*/
 .header {
   background-color: var(--header-bg-color);
 }
@@ -48,6 +52,7 @@ body {
 .site-nav .link.current {
   color: var(--accent-text-color);
 }
+         /*Основной блок*/
 .section .section-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -88,6 +93,7 @@ body {
   background-color: var(--header-bg-color);
   color: var(--accent-text-color);
 }
+         /*Низ*/
 .footer-bg {
   background-color: var(--footer-bg-color);
 }
